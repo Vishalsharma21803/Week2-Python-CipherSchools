@@ -1,0 +1,35 @@
+def hello():
+    return 1
+
+'''arguments in python
+1. required arguments
+2. default arguments
+2. optional arguments
+4. required keyword only argument
+5. optional keyword only argument'''
+
+
+def func(a,b):
+    print(a,b)
+
+func(1,2)
+
+
+def funct(a=1, b=2):
+    print(a,b)
+
+funct()
+funct(1)
+funct(3,4)
+
+
+def functi(a,b,*c,d):
+    print(a)
+    print(b)
+    print(c)
+    print(d)
+
+print(1,5,6,8,6,d=7)
+
+#lambda function
+lambda a,b:a + b
